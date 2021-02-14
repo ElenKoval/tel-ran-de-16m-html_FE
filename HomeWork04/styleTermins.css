@@ -1,0 +1,41 @@
+dt {
+    color: red;
+    font-weight: bold; 
+    quotes: "<" ">";
+    border-style:ridge;
+    background-color: rgb(199, 214, 218);
+}
+dt::before{
+    content: open-quote;
+}
+dt::after{
+    content: close-quote;
+}
+abbr{
+    color: seagreen;   
+}
+address{
+    color: seagreen; 
+}
+code{
+    color: seagreen; 
+}
+
+aside{
+    color: seagreen; 
+        width: 40%;
+        float: right;
+        font-style: italic;
+
+
+    }
+    
+p{
+    color:slateblue
+}
+dd{
+    border-style: dotted;
+    
+}
+
+    
